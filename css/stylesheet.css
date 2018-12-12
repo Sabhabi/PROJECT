@@ -1,0 +1,39 @@
+* {
+ font-family: 'Open Sans', sans-serif;
+ text-align: center;
+
+ color: #4d4d4d;
+}
+/*
+h1 {
+  text-align: center
+} */
+
+body {
+  padding: 8px;
+}
+body {
+    background-color: #edeff2;
+    font-family: 'Open Sans', sans-serif;
+    color: #6a859c;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.boxed {
+margin-right: 100px;
+margin-left: 100px;;
+}
+
+img {
+  max-width: 400px;
+}
+
+.list {
+  display: inline-block;
+  padding: 20px;
+}
+
+table thead tr th, table tbody tr td {
+  padding: 10px;
+}
