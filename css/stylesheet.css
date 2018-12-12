@@ -1,3 +1,50 @@
+
+li {
+  display: inline;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #00cc9c;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #edeff2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
 * {
  font-family: 'Open Sans', sans-serif;
  text-align: center;
@@ -10,7 +57,7 @@ h1 {
 } */
 
 body {
-  padding: 8px;
+  padding: 100px;
 }
 body {
     background-color: #edeff2;
@@ -22,18 +69,5 @@ body {
 
 .boxed {
 margin-right: 100px;
-margin-left: 100px;;
-}
-
-img {
-  max-width: 400px;
-}
-
-.list {
-  display: inline-block;
-  padding: 20px;
-}
-
-table thead tr th, table tbody tr td {
-  padding: 10px;
+margin-left: 100px;
 }
